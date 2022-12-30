@@ -1,0 +1,4 @@
+import ast
+
+expression = ast.parse("cout(a*(b-c))")
+print(ast.dump(expression))
