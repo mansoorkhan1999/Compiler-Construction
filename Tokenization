@@ -1,0 +1,6 @@
+import re
+
+string_for_token = input("Please enter a string for tokens : \n")
+
+string = re.split('\s+|(\w)',string_for_token)
+print ("\nTokens : ",list(filter(None, string)))
